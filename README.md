@@ -1,4 +1,4 @@
-Commit.Service.Implementations
+VersionOne.CommitService.Plugin.Translator.GitHub
 ==============================
 
-Implementations for VersionOne.CommitService.Core
+GitHub plugin translator implementation for VersionOne CommitService
