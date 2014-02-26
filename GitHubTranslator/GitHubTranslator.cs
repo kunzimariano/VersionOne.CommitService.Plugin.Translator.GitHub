@@ -8,11 +8,6 @@ using VersionOne.CommitService.Types;
 
 namespace VersionOne.CommitService.Plugin.Translator.GitHub
 {
-	/// <summary>
-	/// Translates incoming post-receive hook POST bodies from GitHub into a CommitMessage. See
-	/// https://help.github.com/articles/post-receive-hooks for info on the format. 
-	/// </summary>
-	[Export(typeof(ITranslateInboundMessageToCommits))]
 	public class GitHubTranslator : ITranslateInboundMessageToCommits
 	{
 		public Translation.Result Execute(InboundMessage message)
